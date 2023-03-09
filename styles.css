@@ -1,0 +1,121 @@
+body{
+    background-color:#ECE2D0;
+    display: flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 50px;
+}
+
+img{
+    border-radius: 8%;
+    width:400px;
+    height:400px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+
+.container{
+    background-color: #7FD1B9;
+    width:440px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 390px) {
+    body{
+        padding: unset;
+    }
+    .container {
+      width: 90%;
+    }
+    .image{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        width:300px;
+        height:300px;
+        border-radius: 30px;
+    }
+  }
+
+.details{
+    padding: 0 20px 0 20px;
+}
+
+h3{
+    margin:0;
+}
+
+p{
+    font-weight: 300;
+}
+
+.eth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eth1{
+    display: flex;
+    align-items: center;
+}
+
+.eth2{
+    display: flex;
+    align-items: center;
+}
+
+object{
+    padding-right: 10px;
+}
+
+hr{
+    margin-top: 20px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-width: 2px;
+}
+
+.avatar{
+    height:40px;
+    width: 40px;
+    border: 2px solid white;
+    padding: 0;
+    border-radius: 100%;
+}
+
+.author{
+    padding:10px 0 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+.author-text{
+    padding-left:10px;
+}
+
+.eth1 img{
+    width:10px;
+    height:18px;
+    padding:0 5px 0 0;
+    margin:0;
+}
+
+.eth2 img{
+    width:15px;
+    height:18px;
+    padding:0;
+    margin:0;
+}
+
+.left{
+    padding-left:5px;
+}
